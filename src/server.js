@@ -10,6 +10,6 @@ app.get('/', (req, res)=>{
     res.render("home")
 })
 
-const handleListen = () => console.log(`Listening on http`);
+const handleListen = () => console.log(`Listening on http, port 3000`);
 
 app.listen(3000, handleListen);
